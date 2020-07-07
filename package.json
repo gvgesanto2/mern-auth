@@ -2,6 +2,9 @@
   "name": "mern-auth",
   "version": "1.0.0",
   "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
   "repository": "https://github.com/gvgesanto2/mern-auth.git",
   "author": "Gabriel Santo <gvgesanto2@gmail.com>",
   "license": "MIT",
@@ -12,5 +15,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.21",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
